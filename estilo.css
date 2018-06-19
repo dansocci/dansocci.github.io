@@ -1,4 +1,13 @@
 /* ============================== layout ============================== */
+html, body, .capa {
+    height: 100%;
+}
+
+body {
+    background: url('../img/roasted-beans-slide.png') no-repeat;
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
 /* -------- Barra de Navegação -------- */
 .img-logo{
@@ -32,6 +41,26 @@ nav.navbar-transparente{
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #bb7214b6;
+    color: #ffa600d0;
 }
+
+/* -------- Imagem de Capa -------- */
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 /* ============================ Tipografia ============================ */
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: #fdc55d;
+}
