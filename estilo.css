@@ -5,14 +5,14 @@
     height: 40px;
     width: 132px;
     display: block;
-    background: url("imagens/spotify.svg") no-repeat;
+    background: url("img/coffee-547490_1280.png") no-repeat;
     background-size: contain;
     color: transparent;
 }
 
 nav.navbar-transparente{
     padding: 15px 0px;
-    background: rgba(87, 55, 7, 0.863);
+    background: rgba(87, 55, 7, 0.7);
     border: none;
 }
 
@@ -32,6 +32,6 @@ nav.navbar-transparente{
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #9bf0e1;
+    color: #bb7214b6;
 }
 /* ============================ Tipografia ============================ */
