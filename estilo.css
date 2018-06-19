@@ -4,7 +4,7 @@ html, body, .capa {
 }
 
 body {
-    background: url('../img/roasted-beans-slide.png') no-repeat;
+    background: url('img/capa.png') no-repeat;
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -57,10 +57,37 @@ nav.navbar-transparente{
     vertical-align: middle;
 }
 
+/* -------- Botões -------- */
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 4px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+.btn-amarelo {
+    background: #fdc55d;
+}
+.btn-amarelo:hover {
+    background-color: #ffa705;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+.btn-branco:hover {
+    background-color: white;
+}
+
 /* ============================ Tipografia ============================ */
 h1 {
     font-size: 100px;
     font-weight: 900;
     letter-spacing: -0.05em;
     color: #fdc55d;
+    margin-bottom: 50px
 }
