@@ -143,6 +143,10 @@ nav.navbar-transparente{
     padding: 20px 0px;
 }
 
+.atendimento {
+    padding-left: 20px;
+}
+
 /* -------- Rodapé -------- */
 footer {
     background: rgba(87, 55, 7, 1);
