@@ -51,8 +51,9 @@ nav.navbar-transparente{
     color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover  {
     color: #ffa600d0;
+    background: none;
 }
 
 /* -------- Imagem de Capa -------- */
