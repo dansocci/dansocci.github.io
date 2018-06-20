@@ -76,10 +76,12 @@ nav.navbar-transparente{
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    padding: 10px 35px;
+    padding: 10px 105px;
     margin: 4px 15px;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
+    font-weight: 500;
+    font-size: 20px;
 }
 .btn-amarelo {
     background: #fdc55d;
@@ -91,6 +93,7 @@ nav.navbar-transparente{
 
 .btn-branco {
     border: 2px solid white;
+    background: none;
 }
 .btn-branco:hover {
     background-color: white;
@@ -198,4 +201,14 @@ h3 {
 #contato h4 {
     color: #fdc55d;
     font-size: 20px;
+}
+
+.modalFonte {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fdc55d;
+}
+
+.borda {
+    border: 1px solid red
 }
