@@ -1,10 +1,14 @@
 /* ============================== layout ============================== */
-html, body, .capa {
-    height: 100%;
+html, body{
+    height: 607px;
+}
+
+.capa {
+    height: 400px;
 }
 
 body {
-    background: url('img/capa.png') no-repeat;
+    background: url('img/capa.png');
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -53,7 +57,7 @@ nav.navbar-transparente{
 
 /* -------- Imagem de Capa -------- */
 .capa {
-    margin-top: 20px;
+    padding-top: 20px;
     display: table;
     width: 100%;
 }
@@ -91,6 +95,68 @@ nav.navbar-transparente{
     background-color: white;
 }
 
+/* -------- Seção Serviços -------- */
+#servicos {
+    background: white;
+    padding: 20px 0px;
+}
+
+.albuns {
+    padding: 14px 0px;
+}
+
+.ajuste-img {
+    height: 90%;
+    width: 90%;
+}
+
+/* -------- Cafés -------- */
+#cafes {
+    background: white;
+    padding: 20px 0px;
+}
+
+.img-cafe {
+    width: 60%;
+    text-align: center;
+}
+
+.cafe {
+    padding: 14px 0px;
+}
+
+/* -------- História -------- */
+#historia {
+    background: white;
+    padding: 20px 0px;
+}
+.central {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* -------- Contato -------- */
+#contato {
+    background: white;
+    padding: 20px 0px;
+}
+
+/* -------- Rodapé -------- */
+footer {
+    background: rgba(87, 55, 7, 1);
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+.rede-social {
+    float: right;
+}
+
+.espacamento {
+    padding: 20px;
+}
+
 /* ============================ Tipografia ============================ */
 h1 {
     font-size: 100px;
@@ -98,4 +164,33 @@ h1 {
     letter-spacing: -0.05em;
     color: #fdc55d;
     margin-bottom: 50px
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#rodape p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+#servicos h2, #servicos h3, #cafes h3 {
+    color: #fdc55d;
+}
+
+#contato h4 {
+    color: #fdc55d;
+    font-size: 20px;
 }
