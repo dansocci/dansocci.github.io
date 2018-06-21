@@ -147,6 +147,11 @@ nav.navbar-transparente{
     padding: 20px;
     text-align: center;
     background: rgb(97, 72, 34);
+    transition: background 0.4s, color 0.4s;
+}
+
+.caixa-texto:hover {
+    background : rgb(71, 46, 8);;
 }
 
 .hist {
