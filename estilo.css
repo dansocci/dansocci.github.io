@@ -16,7 +16,7 @@ body {
 /* -------- Barra de Navegação -------- */
 .img-logo{
     height: 40px;
-    width: 40px;
+    width: 142px;
     float: left;
 }
 
@@ -173,12 +173,13 @@ footer {
 
 .rede-social {
     float: right;
+    margin: 5px;
+    padding: 1px;
 }
 
 .espacamento {
-    margin: 5px;
+    margin: 5px 0px;
 }
-
 /* ============================ Tipografia ============================ */
 h1 {
     font-size: 100px;
