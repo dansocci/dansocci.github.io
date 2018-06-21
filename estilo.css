@@ -76,7 +76,7 @@ nav.navbar-transparente{
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    padding: 10px 105px;
+    padding: 10px 10px;
     margin: 0px 15px 14px 15px;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
@@ -171,7 +171,7 @@ h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     color: #fdc55d;
-    margin-bottom: 50px
+    margin-top: 50px;
 }
 
 h2 {
