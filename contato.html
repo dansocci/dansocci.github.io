@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-2.2.1.js"></script>
 
     <title>CaféGourmet - Contato</title>
     <link rel="icon" href="img/favicon.ico">
@@ -69,7 +70,13 @@
 
             <div class="row cafe">
                 <div class="col-md-4">
-                    <img src="img/atendimento.png" class="img-responsive">
+                    <div class="row">
+                        <img src="img/atendimento.png" class="img-responsive" ondblclick="$('#professor').show();">
+                    </div>
+                    <div class="row" id="professor" hidden>
+                        <h4>Professor:</h4>
+                        <h3>Fulano de Tal</h3>
+                    </div>
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-6">

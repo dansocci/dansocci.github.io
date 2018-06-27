@@ -168,6 +168,13 @@ nav.navbar-transparente{
     padding-left: 20px;
 }
 
+#professor {
+    border: 2px solid #9d9d9d;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
 /* -------- Rodapé -------- */
 footer {
     background: rgba(87, 55, 7, 1);
