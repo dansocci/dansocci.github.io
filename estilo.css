@@ -178,15 +178,16 @@ nav.navbar-transparente{
 /* -------- Rodapé -------- */
 footer {
     background: rgba(87, 55, 7, 1);
-    padding: 30px 0px 5px 0px;
+    padding: 30px 0px 20px 0px;
     position: relative;
     width: 100%;
 }
 
 .rede-social {
     float: right;
-    margin: 5px;
-    padding: 1px;
+    margin-right: 10px;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .espacamento {
